@@ -70,7 +70,6 @@ class _YoutubeVideoState extends State<YoutubeVideo> {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      color: Colors.blue,
       child: VisibilityDetector(
         key: const Key("unique key"),
         onVisibilityChanged: (info) {
@@ -92,7 +91,7 @@ class _YoutubeVideoState extends State<YoutubeVideo> {
 
             controller: _controller,
             showVideoProgressIndicator: true,
-            progressIndicatorColor: Colors.blueAccent,
+            progressIndicatorColor: Colors.red,
             topActions: <Widget>[
               const SizedBox(width: 12),
               Expanded(

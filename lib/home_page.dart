@@ -5,7 +5,6 @@ import 'package:sport_tv_app/lower_body.dart';
 import 'package:sport_tv_app/squat.dart';
 import 'package:sport_tv_app/upper_body.dart';
 import 'package:sport_tv_app/yoga.dart';
-
 import 'abs.dart';
 import 'cardio.dart';
 
