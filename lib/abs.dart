@@ -22,7 +22,7 @@ class _AbsState extends State<Abs> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children:[
           Container(
-            width: 569.0,
+            width: 580.0,
             height: 136.8,
             child: Row(
               mainAxisSize: MainAxisSize.min,
@@ -30,7 +30,7 @@ class _AbsState extends State<Abs> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children:[
                 Container(
-                  width: 164.9,
+                  width: 165,
                   height: 135,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -128,7 +128,7 @@ class _AbsState extends State<Abs> {
                           borderRadius: BorderRadius.circular(10),
                           gradient: const LinearGradient(begin: Alignment.centerLeft, end: Alignment.centerRight, colors: [Color(0xffa04bbf), Color(0x519f4bbf)], ),
                         ),
-                        padding: const EdgeInsets.only(left: 54, right: 6, top: 110, bottom: 10, ),
+                        padding: const EdgeInsets.only(left: 54, right: 25, top: 110, bottom: 10, ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
                           mainAxisAlignment: MainAxisAlignment.center,
