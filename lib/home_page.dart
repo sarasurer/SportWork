@@ -35,13 +35,13 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(
-            width: 99.44,
+            width: 75,
             height: 88,
             child: Stack(
               children: [
                 Container(
-                  width: 50,
-                  height: 50,
+                  width: 75,
+                  height: 75,
                   decoration: BoxDecoration(
                     image: const DecorationImage(
                         image: AssetImage('assets/logo.png'), fit: BoxFit.fill),
