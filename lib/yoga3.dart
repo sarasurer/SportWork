@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:sport_tv_app/video_player.dart';
+import 'video_player.dart';
 
-class AbsFirst extends StatefulWidget {
-  const AbsFirst({Key? key}) : super(key: key);
+class YogaThird extends StatefulWidget {
+  const YogaThird({Key? key}) : super(key: key);
 
   @override
-  State<AbsFirst> createState() => _AbsFirstState();
+  State<YogaThird> createState() => _YogaThirdState();
 }
 
-class _AbsFirstState extends State<AbsFirst> {
+class _YogaThirdState extends State<YogaThird> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text("ABS Beginner"),
+          title: const Text("Yoga Professional"),
           flexibleSpace: Container(
             decoration: const BoxDecoration(
                 gradient: LinearGradient(

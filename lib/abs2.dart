@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:sport_tv_app/video_player.dart';
-
-class AbsFirst extends StatefulWidget {
-  const AbsFirst({Key? key}) : super(key: key);
+import 'video_player.dart';
+class AbsSecond extends StatefulWidget {
+  const AbsSecond({Key? key}) : super(key: key);
 
   @override
-  State<AbsFirst> createState() => _AbsFirstState();
+  State<AbsSecond> createState() => _AbsSecondState();
 }
 
-class _AbsFirstState extends State<AbsFirst> {
+class _AbsSecondState extends State<AbsSecond> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text("ABS Beginner"),
+          title: const Text("ABS Intermediate"),
           flexibleSpace: Container(
             decoration: const BoxDecoration(
                 gradient: LinearGradient(
