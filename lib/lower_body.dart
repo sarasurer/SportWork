@@ -71,9 +71,9 @@ class _LowerBodyState extends State<LowerBody> {
                           ),
                           padding: const EdgeInsets.only(
                             left: 45,
-                            right: 58,
-                            top: 107,
-                            bottom: 12,
+                            right: 45,
+                            top: 50,
+                            bottom: 50,
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
@@ -81,14 +81,14 @@ class _LowerBodyState extends State<LowerBody> {
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: const [
                               SizedBox(
-                                width: 60,
-                                height: 17,
+                                width: 70,
+                                height: 30,
                                 child: Text(
                                   "Beginner",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 13,
+                                    fontSize: 16,
                                     fontFamily: "Ubuntu",
                                     fontWeight: FontWeight.w500,
                                   ),
@@ -130,10 +130,10 @@ class _LowerBodyState extends State<LowerBody> {
                             ),
                           ),
                           padding: const EdgeInsets.only(
-                            left: 42,
-                            right: 40,
-                            top: 111,
-                            bottom: 9,
+                            left: 30,
+                            right: 30,
+                            top: 50,
+                            bottom: 50,
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
@@ -141,14 +141,14 @@ class _LowerBodyState extends State<LowerBody> {
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: const [
                               SizedBox(
-                                width: 82,
-                                height: 16,
+                                width: 100,
+                                height: 30,
                                 child: Text(
                                   "Intermediate",
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: Colors.white,
-                                    fontSize: 13,
+                                    fontSize: 16,
                                     fontFamily: "Ubuntu",
                                     fontWeight: FontWeight.w500,
                                   ),
@@ -190,10 +190,10 @@ class _LowerBodyState extends State<LowerBody> {
                             ),
                           ),
                           padding: const EdgeInsets.only(
-                            left: 54,
-                            right: 6,
-                            top: 110,
-                            bottom: 10,
+                            left: 30,
+                            right: 30,
+                            top: 40,
+                            bottom: 58,
                           ),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
@@ -201,8 +201,8 @@ class _LowerBodyState extends State<LowerBody> {
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
                               Container(
-                                width: 74,
-                                height: 13,
+                                width: 91,
+                                height: 30,
                                 padding: const EdgeInsets.only(
                                   bottom: 1,
                                 ),
@@ -216,7 +216,7 @@ class _LowerBodyState extends State<LowerBody> {
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         color: Colors.white,
-                                        fontSize: 13,
+                                        fontSize: 16,
                                         fontFamily: "Ubuntu",
                                         fontWeight: FontWeight.w500,
                                       ),

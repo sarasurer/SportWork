@@ -37,7 +37,7 @@ class _SquatFirstState extends State<SquatFirst> {
                       colors: <Color>[Color(0xffd78ff3), Color(0x519f4bbf)])),
             ),
             YoutubeVideo(
-              "https://www.youtube.com/watch?v=Ci4t-NkOY3I&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG",
+              "https://www.youtube.com/watch?v=0LaoF369azs&list=PL_YmSlphJMOEwgHPmQty_Ps-nJWL5MxSZ&index=6",
             ),
           ],
         ),
